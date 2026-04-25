@@ -8,64 +8,57 @@ const Literature = () => {
           Literature Survey
         </h2>
         <p className="mt-8 text-lg leading-8 text-gray-700">
-          The current operational model of dams in Sri Lanka presents several
-          challenges that necessitate the development of an integrated smart dam
-          control system. Firstly, the semi-automatic operation of dams and the
-          reliance on human decision-making for critical actions introduce a
-          level of inefficiency and potential for errors. Human operators must
-          continually monitor and adjust dam gates based on fluctuating water
-          levels caused by the release rates of upper-level dams. This reactive
-          approach can lead to suboptimal responses and mismatches between water
-          discharge rates and demand.
+          The current methodology for nutritional label analysis and dietary product 
+          compliance presents several challenges that necessitate the development of 
+          an integrated FoodLens AI system. Firstly, the manual extraction of data from 
+          food labels and the reliance on human review for critical compliance checks 
+          introduce a level of inefficiency and potential for errors. Human analysts or 
+          consumers must continually parse complex supplement facts panels and manually 
+          cross-reference them against varying health goals, dietary restrictions, or regulatory standards. 
+          This tedious and manual approach can lead to suboptimal dietary choices and significant oversight 
+          in regulatory compliance.
         </p>
 
         <p className="mt-6 text-lg leading-8 text-gray-700">
-          Moreover, the lack of pre-emptive water release strategies to prevent
-          potential floods poses a significant risk. The conventional practice
-          of releasing water only when dams reach critical volume neglects the
-          proactive management of environmental conditions that could lead to
-          flooding. This emphasizes the need for a more predictive and adaptive
-          system capable of releasing water in anticipation of changing
-          conditions.
+          Moreover, the lack of pre-emptive, automated screening strategies to identify 
+          misleading nutritional claims or hidden health risks poses a significant challenge. 
+          The conventional practice of scrutinizing dietary labels only post-market, or relying on the 
+          consumer's limited nutritional knowledge at the point of purchase, neglects the proactive management 
+          of food transparency. This emphasizes the need for a more intelligent and adaptive computer-vision system capable 
+          of instantly extracting and analyzing label data to identify potential health impacts or compliance issues before a product is consumed.
         </p>
 
         <blockquote className="mt-8 border-l-4 border-blue-500 pl-4 italic text-gray-500">
-          Additionally, there is a notable absence of accountability concerning
-          future rainfall predictions. The inability to adjust water levels in
-          anticipation of forecasted rainfall increases the vulnerability of
-          downstream areas to flooding.
+          Additionally, there is a notable disconnect concerning the dynamic integration of evolving health research, 
+          regulatory guidelines, and sustainability metrics. The inability to instantly evaluate a product's label against updated dietary regulations 
+          or emerging market intelligence leaves consumers vulnerable to outdated information and limits a brand's ability to ensure continuous market compliance.
         </blockquote>
 
         <p className="mt-6 text-lg leading-8 text-gray-700">
-          Furthermore, the lack of a robust real-time warning system for
-          communities downstream during dam releases poses a serious safety
-          concern. An often-overlooked issue is the annual blocking of roads and
-          loss of properties due to the unplanned release of water during the
-          rainy season. An integrated smart dam control system should include
-          features to optimize the timing and coordination of water releases to
-          prevent road blockages and associated disruptions.
+          Furthermore, the lack of a robust, real-time insights system for individuals trying to navigate complex dietary needs poses a serious public
+           health concern. An often-overlooked issue is the cumulative negative health impact and dietary complications caused by the misinterpretation 
+           of supplement facts, hidden ingredients, or vague sustainability claims. An integrated FoodLens AI system should include features to instantly 
+           process visual label data to provide comprehensive, easy-to-understand health impact profiles and market intelligence, effectively preventing 
+           dietary mismanagement and ensuring ultimate transparency for both consumers and regulatory bodies.
         </p>
 
         <h3 className="mt-12 text-2xl font-bold text-gray-900">References</h3>
         <ul className="mt-4 list-none text-gray-700 text-xs">
           <li id="ref1" className="mb-4">
-            [1] S. Hossain, M. Nair, L. M. Sidek, and M. Marufuzzaman, "A
-            pre-release concept for reservoir management and the effect analysis
-            on flood control," in Water Resources Development and Management,
-            2019, pp. 556–566. doi: 10.1007/978-981-15-1971-0_54.
+            [1] M. Nagayi, "Evaluating OCR performance on food packaging labels," 2024.
           </li>
           <li id="ref2" className="mb-4">
-            [2] S. S. Siddula, P. Babu, and P. C. Jain, "Water level monitoring
-            and management of dams using IoT," in Proc. 2018 3rd Int. Conf.
-            Internet of Things: Smart Innovation and Usages (IoT-SIU), Bhimtal,
-            India, 2018, pp. 1-5. doi: 10.1109/IoT-SIU.2018.8519843.
+            [2] L. Wang et al., "A lightweight large language model for regulatory affairs translation in pharmaceutical industry,
+            " Scientific Reports, vol. 14, no. 1, p. 21867, 2024.
+
           </li>
           <li id="ref3" className="mb-4">
-            [3] Q. Wang, B. Li, Z. Deng, and W. Zhao, "Dam crack detection based
-            on deep learning cascade detection algorithm," in Proc. 2023 3rd
-            Int. Conf. Neural Networks, Information and Communication
-            Engineering (NNICE), Guangzhou, China, 2023, pp. 131-134. doi:
-            10.1109/NNICE58320.2023.10105763.
+            [3] W. Min, C. Liu, L. Xu, and S. Jiang, “Applications of knowledge graphs for food 
+science and industry,” Patterns, vol. 3, no. 5, p. 100484, May 2022, doi: 
+10.1016/j.patter.2022.100484.
+          </li>
+          <li id="ref3" className="mb-4">
+            [3] G. Kontonatsios et al., "FABSA: An aspect-based sentiment analysis dataset of user reviews," 2023.
           </li>
         </ul>
       </div>

@@ -1,5 +1,5 @@
-# HydroGuard
-- Landing page for HydroGuard
+# FoodLensAI
+- Landing page for FoodLensAI
 
 ## Live site
-- https://red-stream-y3.github.io/HydroGuard/
+- https://red-stream-y3.github.io/FoodLensAI/

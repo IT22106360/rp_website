@@ -18,15 +18,13 @@ const Overview = () => {
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               <p className="text-base font-semibold leading-7 text-cyan-600">
-                Smart Dam Control
+                FoodLenAI
               </p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Modernizing Dam Operations in Sri Lanka
+                Revolutionizing Nutritional Analysis and Label Intelligence
               </h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                The current operational model for dams presents challenges that
-                can be addressed by a smart, automated dam control system,
-                optimizing safety, efficiency, and flood prevention.
+                The current approaches to dietary label analysis presents challenges that can be addressed by a smart, automated visual recognition system, optimizing regulatory compliance, health awareness, and market transparency.
               </p>
             </div>
           </div>
@@ -49,10 +47,9 @@ const Overview = () => {
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Real-time Monitoring.
+                      Intelligent Label Analysis.
                     </strong>
-                    Monitors dam conditions in real-time, providing early
-                    warnings and alerts.
+                    Processes food product labels and supplement facts panels in real-time, instantly extracting critical nutritional data securely.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -62,10 +59,9 @@ const Overview = () => {
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Automated Dam Control.
+                      Automated Compliance Engine.
                     </strong>
-                    Automates gate operations based on fluctuating water levels
-                    and weather forecasts, reducing human error.
+                    Evaluates ingredients and nutritional claims against regulatory standards, reducing human error in compliance checks.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -75,10 +71,9 @@ const Overview = () => {
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Predictive Flood Prevention.
+                      Health Impact Profiling.
                     </strong>
-                    Utilizing real-time data and predictive models to
-                    proactively release water and prevent flooding.
+                    Utilizes analyzed nutritional data to generate comprehensive health impact reports, empowering users to make informed dietary choices.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -88,10 +83,9 @@ const Overview = () => {
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Dam Crack Analysis.
+                      Sustainability Scoring
                     </strong>
-                    Utilizes machine learning to analyze dam cracks and
-                    prioritize maintenance.
+                    Analyzes product information and sourcing indicators to assess environmental impact and provide actionable sustainability metrics.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -101,25 +95,20 @@ const Overview = () => {
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Efficient Hydro Power Generation.
+                      Market Intelligence Generation.
                     </strong>
-                    Optimizes water release for hydro power generation,
-                    increasing efficiency.
+                    Extracts and aggregates valuable data trends from analyzed products, giving brands and researchers a competitive edge.
                   </span>
                 </li>
               </ul>
               <p className="mt-8">
-                The smart dam control system integrates IoT, machine learning,
-                and real-time data, ensuring a safer and more efficient
-                management of dam operations in Sri Lanka.
+                The FoodLens AI system integrates computer vision, machine learning, and comprehensive nutritional databases, ensuring a more transparent and efficient analysis of dietary products.
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                Transforming Infrastructure.
+                Transforming Food Transparency.
               </h2>
               <p className="mt-6">
-                Using this system, dam operations can transition from reactive
-                to proactive, safeguarding communities and infrastructure from
-                floods and ensuring optimal water resource management.
+                Using this system, nutritional analysis can transition from slow and manual to instant and proactive, safeguarding consumers from hidden health risks and ensuring optimal market compliance for food and supplement brands.
               </p>
             </div>
           </div>

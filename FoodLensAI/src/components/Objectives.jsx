@@ -8,27 +8,27 @@ import {
 const Objectives = () => {
   const objectivesList = [
     {
-      title: "Integrate Low-Cost IoT",
+      title: "Multimodal Data Extraction & Sustainability Scoring",
       description:
-        "Leverage affordable IoT sensors to monitor water levels in real-time, enabling efficient and cost-effective dam management.",
+        "advanced computer vision models to accurately extract unstructured text from diverse food labels, while simultaneously analyzing certifications and sourcing indicators to calculate environmental sustainability scores",
       icon: DevicePhoneMobileIcon,
     },
     {
-      title: "Flood Control Algorithm",
+      title: "Automate Compliance Verification",
       description:
-        "Develop an advanced algorithm to predict and control flood risks by releasing water at optimal times, based on weather data and reservoir capacity.",
+        "Implement a robust verification engine to autonomously cross-reference extracted ingredients and nutritional claims against current regulatory databases, ensuring proactive identification of non-compliant formulations.",
       icon: ArrowPathIcon,
     },
     {
-      title: "Automated Crack Detection",
+      title: "Generate Health Impact Profiles",
       description:
-        "Implement a smart detection system using image processing and computer vision algorithms to autonomously identify structural cracks, ensuring timely maintenance of dam infrastructure.",
+        "Create comprehensive analytical models that translate complex nutritional facts, allergen warnings, and hidden additives into clear, actionable health insights, empowering users to identify specific dietary risks.",
       icon: AcademicCapIcon,
     },
     {
-      title: "Optimize Hydropower Generation",
+      title: "Predictive Market Intelligence",
       description:
-        "Utilize machine learning models to forecast energy demands and water availability, optimizing the efficiency of hydropower generation.",
+        "Utilize machine learning algorithms to aggregate and analyze continuous visual label data, generating predictive nutritional trends and real-time market analytics for food brands, researchers, and regulatory bodies.",
       icon: BoltIcon,
     },
   ];

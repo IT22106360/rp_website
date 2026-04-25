@@ -1,9 +1,9 @@
 {
-  "name": "hydroguard",
+  "name": "foodlensai",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://red-stream-y3.github.io/HydroGuard/",
+  "homepage": "https://red-stream-y3.github.io/FoodLensAI/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -108,10 +108,10 @@ const Header = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <a href="#home" className="-m-1.5 p-1.5 flex items-center">
-                <span className="sr-only">HydroGuard</span>
-                <img alt="HydroGuard Logo" src={Logo} className="h-8 w-8" />
+                <span className="sr-only">FoodLensAI</span>
+                <img alt="FoodLensAI Logo" src={Logo} className="h-8 w-8" />
                 <span className="text-2xl ml-5 font-bold text-cyan-600">
-                  HydroGuard
+                  FoodLensAI
                 </span>
               </a>
             </div>
@@ -168,9 +168,9 @@ const Header = () => {
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">HydroGuard</span>
+              <span className="sr-only">FoodLensAI</span>
               <img
-                alt="HydroGuard Logo"
+                alt="FoodLensAI Logo"
                 src="https://tailwindui.com/plus/img/logos/mark.svg?color=cyan&shade=600"
                 className="h-8 w-auto"
               />

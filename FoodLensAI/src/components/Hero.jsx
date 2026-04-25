@@ -7,12 +7,12 @@ const Hero = () => {
         <div className="relative isolate overflow-hidden sm:rounded-3xl md:pt-24 lg:flex lg:gap-x-20 lg:pt-0">
           <div className=" max-w-md text-center lg:mx-0 lg:flex-auto mx-2 lg:py-32 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              HygroGuard
+              FoodLensAI
               <br />
-              Smart Dam Control System
+              Brain Behind Every bite
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Leverage cutting-edge technology for efficient dam management.
+              An Intelligent Framework for Transparent and Safe, Food and Dietary Labeling
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a

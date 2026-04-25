@@ -7,41 +7,41 @@ import janinduImage from "../assets/Janindu.jpeg";
 const items = [
   {
     id: 1,
-    title: "Dam Gate Automation",
+    title: "Intelligent Extraction & Sustainability Scoring",
     description:
-      "The smart dam management system begins with IoT sensors deployed around the dam to monitor real-time environmental and operational metrics, such as water levels, flow rates, and weather conditions. These sensors continuously collect and transmit data to the central system, which is vital for immediate decision-making and for feeding into predictive models.",
+      "The FoodLens AI system utilizes advanced computer vision to instantly extract complex nutritional facts, ingredients, and claims from diverse product packaging. Simultaneously, this module analyzes extracted text, sourcing indicators, and certification logos to calculate a comprehensive sustainability score. This unified approach seamlessly converts unstructured visual data into machine-readable formats while assessing the environmental footprint of the product.",
     author: {
-      name: "Sachini Lekamge",
+      name: "Rashmika Rupasinghe",
       imageUrl: sachiniImage,
     },
   },
   {
     id: 2,
-    title: "Flood Prevention with Pre-releasing",
+    title: "Automated Compliance Verification",
     description:
-      "The pre-release algorithm is the critical component of the proposed flood prevention strategy. It is designed to proactively manage reservoir water levels by calculating and executing controlled water releases before the water level reaches a critical threshold. The algorithm operates by predicting future water levels based on various inputs and adjusting the spill amount accordingly in an iterative process, util the desired outcome is achieved. Figure 3 illustrates the step-by-step process of the algorithm.",
+      "The compliance verification module acts as the core regulatory engine of the proposed solution. It is designed to proactively evaluate the extracted ingredient lists and nutritional claims against up-to-date food safety regulations and dietary guidelines. By cross-referencing extensive regulatory databases, the system instantly flags discrepancies, misleading claims, or non-compliant formulations before a product reaches the consumer.",
     author: {
-      name: "Dinushka Samaranayake",
+      name: "Nithil Waduge",
       imageUrl: dinushkaImage,
     },
   },
   {
     id: 3,
-    title: "Dam Crack Analysis",
+    title: "Health Impact Analysis",
     description:
-      "The proposed solution involves developing a mobile application for automated dam crack analysis using convolutional neural networks (CNNs) and image processing algorithms. By enabling users to upload dam crack images, the app aims to enhance the efficiency and accuracy of detecting and analyzing structural defects. This approach addresses the challenges of traditional manual inspections, which are often time-consuming and prone to error. The integration of advanced technologies facilitates swift feature extraction, pattern analysis, and consistent results, empowering dam managers and engineers to identify and prioritize defects effectively, ultimately improving the safety and reliability of dam infrastructure",
+      "The proposed solution features a comprehensive health impact model that translates complex nutritional data into clear, actionable dietary insights. By evaluating macronutrient ratios, hidden additives, and specific allergen warnings extracted from the label, the system generates individualized health profiles. This empowers consumers to recognize potential health risks and make safer, more informed dietary choices tailored to their needs.",
     author: {
-      name: "Navod Weerawarna",
+      name: "Sakuni Dakshina",
       imageUrl: navodImage,
     },
   },
   {
     id: 4,
-    title: "Improve Hydro Power Generation",
+    title: "Predictive Market Intelligence",
     description:
-      "The hydro power generation optimization model is designed to maximize power output while considering various constraints and objectives. The model utilizes historical data, real-time sensor readings, and weather forecasts to predict future water availability and optimize power generation schedules. By incorporating machine learning algorithms, the model continuously learns and adapts to changing conditions, ensuring efficient and sustainable power generation.",
+      "The market intelligence model is designed to maximize data utility by aggregating localized product insights. Utilizing the continuous influx of scanned labels, the machine learning model identifies emerging nutritional trends, formulation shifts, and dietary preferences. By continuously learning and adapting to new product data, the model provides food brands, researchers, and regulatory bodies with real-time, actionable market analytics.",
     author: {
-      name: "Janindu Dissanayake",
+      name: "Tehan Nimsitha",
       imageUrl: janinduImage,
     },
   },
