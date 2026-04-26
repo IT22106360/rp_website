@@ -1,8 +1,8 @@
 import React from "react";
-import sachiniImage from "../assets/Sachini.png";
-import navodImage from "../assets/Navod.jpeg";
-import dinushkaImage from "../assets/Dinushka.jpeg";
-import janinduImage from "../assets/Janindu.jpeg";
+import RashmikaImage from "../assets/Rashmika.png";
+import NithilImage from "../assets/Nithil.png";
+import SakuniImage from "../assets/Sakuni.png";
+import TehanImage from "../assets/Tehan.png";
 
 const items = [
   {
@@ -12,7 +12,7 @@ const items = [
       "The FoodLens AI system utilizes advanced computer vision to instantly extract complex nutritional facts, ingredients, and claims from diverse product packaging. Simultaneously, this module analyzes extracted text, sourcing indicators, and certification logos to calculate a comprehensive sustainability score. This unified approach seamlessly converts unstructured visual data into machine-readable formats while assessing the environmental footprint of the product.",
     author: {
       name: "Rashmika Rupasinghe",
-      imageUrl: sachiniImage,
+      imageUrl: RashmikaImage,
     },
   },
   {
@@ -22,7 +22,7 @@ const items = [
       "The compliance verification module acts as the core regulatory engine of the proposed solution. It is designed to proactively evaluate the extracted ingredient lists and nutritional claims against up-to-date food safety regulations and dietary guidelines. By cross-referencing extensive regulatory databases, the system instantly flags discrepancies, misleading claims, or non-compliant formulations before a product reaches the consumer.",
     author: {
       name: "Nithil Waduge",
-      imageUrl: dinushkaImage,
+      imageUrl: NithilImage,
     },
   },
   {
@@ -32,7 +32,7 @@ const items = [
       "The proposed solution features a comprehensive health impact model that translates complex nutritional data into clear, actionable dietary insights. By evaluating macronutrient ratios, hidden additives, and specific allergen warnings extracted from the label, the system generates individualized health profiles. This empowers consumers to recognize potential health risks and make safer, more informed dietary choices tailored to their needs.",
     author: {
       name: "Sakuni Dakshina",
-      imageUrl: navodImage,
+      imageUrl: SakuniImage,
     },
   },
   {
@@ -42,7 +42,7 @@ const items = [
       "The market intelligence model is designed to maximize data utility by aggregating localized product insights. Utilizing the continuous influx of scanned labels, the machine learning model identifies emerging nutritional trends, formulation shifts, and dietary preferences. By continuously learning and adapting to new product data, the model provides food brands, researchers, and regulatory bodies with real-time, actionable market analytics.",
     author: {
       name: "Tehan Nimsitha",
-      imageUrl: janinduImage,
+      imageUrl: TehanImage,
     },
   },
 ];

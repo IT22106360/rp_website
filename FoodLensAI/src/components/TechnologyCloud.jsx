@@ -1,6 +1,3 @@
-import arduinoImg from "../assets/technology/arduino.svg";
-import awsImg from "../assets/technology/aws.svg";
-import cppImg from "../assets/technology/c++.svg";
 import colabImg from "../assets/technology/colab.svg";
 import dockerImg from "../assets/technology/docker-4.svg";
 import expressImg from "../assets/technology/express.svg";
@@ -10,17 +7,23 @@ import mongodbImg from "../assets/technology/mongodb.svg";
 import nodejsImg from "../assets/technology/nodejs.svg";
 import pythonImg from "../assets/technology/python.svg";
 import reactImg from "../assets/technology/react.svg";
-import expoImg from "../assets/technology/expo.svg";
 import tailwindImg from "../assets/technology/tailwind.svg";
 import openCVImg from "../assets/technology/opencv.svg";
-import tensorflowImg from "../assets/technology/tensorflow.svg";
-import kerasImg from "../assets/technology/keras.svg";
 import vitejsImg from "../assets/technology/vitejs.svg";
+import googleCloudVisionImg from "../assets/technology/google-cloud-vision.svg";
+import roboflowImg from "../assets/technology/roboflow.svg";
+import gpt4oImg from "../assets/technology/gpt-4o.svg";
+import ragImg from "../assets/technology/rag.svg";
+import ollamaImg from "../assets/technology/ollama.svg";
+import langchainImg from "../assets/technology/langchain.svg";
 
 const technologies = [
-  { name: "Arduino", src: arduinoImg },
-  { name: "AWS", src: awsImg },
-  { name: "C++", src: cppImg },
+  { name: "Google Cloud Vision", src: googleCloudVisionImg },
+  { name: "Roboflow", src: roboflowImg },
+  { name: "GPT-4o", src: gpt4oImg },
+  { name: "RAG", src: ragImg },
+  { name: "Ollama", src: ollamaImg },
+  { name: "LangChain", src: langchainImg },
   { name: "Google Colab", src: colabImg },
   { name: "Docker", src: dockerImg },
   { name: "Express", src: expressImg },
@@ -30,11 +33,8 @@ const technologies = [
   { name: "Node.js", src: nodejsImg },
   { name: "Python", src: pythonImg },
   { name: "React", src: reactImg },
-  { name: "Expo", src: expoImg },
   { name: "Tailwind CSS", src: tailwindImg },
   { name: "OpenCV", src: openCVImg },
-  { name: "TensorFlow", src: tensorflowImg },
-  { name: "Keras", src: kerasImg },
   { name: "Vite.js", src: vitejsImg },
 ];
 

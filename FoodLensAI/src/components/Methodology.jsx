@@ -10,8 +10,7 @@ const Methodology = () => {
           Methodology
         </h2>
         <p className="mt-6 text-lg leading-8 text-gray-600">
-          We follow a systematic methodology to ensure the development of
-          effective and innovative solutions.
+          We adopt a structured methodology to ensure the development of effective and innovative solutions.
         </p>
         <div className="mt-10 lg:flex lg:items-center">
           <div className="lg:w-1/2">
@@ -25,33 +24,23 @@ const Methodology = () => {
           <div className="lg:w-1/2 lg:pl-12 mt-8 lg:mt-0">
             <ul className="list-disc pl-6 text-lg leading-8 text-gray-600">
               <li>
-                <strong>Dam Gate Automation:</strong> IoT and ML automate water
-                management to improve efficiency, especially in small to
-                medium-sized reservoirs used for agriculture.
+                <strong>Intelligent Label Extraction & Sustainability Analysis:</strong>
+                Utilizes OCR, Vision-Language Models, and post processing to accurately extract and structure food label information. Simultaneously, it integrates carbon emission data and uses machine learning to perform autonomous sustainability assessments.
               </li>
               <li>
-                <strong>Flood Prediction & Prevention:</strong> Predicts water
-                levels 84 hours in advance and uses a pre-release strategy to
-                reduce flood risk and prevent emergency discharges.
+                <strong>Regulatory Compliance & Claim Verification:</strong> Employs Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) to automatically verify product claims against FDA and USDA regulations. It provides citation-backed explanations and generates compliance-verified labels to prevent misleading claims.
               </li>
               <li>
-                <strong>Dam Crack Analysis:</strong> Advanced image processing
-                detects and analyzes cracks to assess dam structural integrity
-                and assist in maintenance decisions.
+                <strong>Nutrition and Health Impact Prediction:</strong> Integrates multi-source data from FDA and USDA databases into Knowledge Graphs and utilizes Graph Neural Networks (GNNs) to predict short- and long-term health risks (like diabetes or allergies) from ingredient interactions. It uses LLMs to summarize scientific evidence and provides insights through an interactive conversational interface.
               </li>
               <li>
-                <strong>Energy Efficiency Prediction:</strong> Machine learning
-                predicts energy efficiency in hydropower reservoirs, optimizing
-                energy production and resource management.
+                <strong>Social Listening for Trend Analysis:</strong> Applies transformer-based NLP models to continuously monitor consumer conversations on social platforms and review sites to extract sentiment and detect emerging topics. It uses time-series and anomaly detection to reveal shifting dietary preferences and public concerns
               </li>
             </ul>
           </div>
         </div>
         <p className="mt-6 text-lg leading-8 text-gray-600">
-          This integrated system improves water resource optimization, ensures
-          timely flood prevention measures, identifies and analyzes structural
-          cracks, and optimizes energy production, making it a highly efficient
-          solution for dam and reservoir management in Sri Lanka.
+          This integrated system bridges regulatory compliance, health science, and consumer trust, ensuring transparent labeling, proactive regulation checks, personalized health insights, and actionable market intelligence
         </p>
       </div>
     </div>

@@ -3,19 +3,19 @@ import { DocumentTextIcon } from '@heroicons/react/24/outline';
 const posts = [
   {
     title: 'Topic Assessment',
-    submittedOn: '2024/02/25',
+    submittedOn: '2025/06/27',
     type: 'group',
     downloadLink:
-      'https://drive.google.com/file/d/1MvpF_Zxf0amPu_XvPFqtFMtLv34qPa2M/view?usp=drive_link',
+      'https://drive.google.com/file/d/1jVx0mlhApHB10UbI-5_JEqJrl5WgJImc/view?usp=sharing',
   },
   {
     title: 'Project Proposal',
-    submittedOn: '2024/03/22',
+    submittedOn: '2024/08/15',
     type: 'individual',
     downloadLink:
-      'https://drive.google.com/drive/folders/1fJYR05qtlTxgdz5htANOaU6eOGyE4JYT?usp=sharing',
+      'https://drive.google.com/drive/folders/12tzdkCiwB_TwjCikYQgqeVVPMQpl9H5t?usp=sharing',
   },
-  {
+  /*{
     title: 'Status Document I',
     submittedOn: '2024/07/05',
     type: 'group',
@@ -28,26 +28,20 @@ const posts = [
     type: 'group',
     downloadLink:
       'https://drive.google.com/drive/folders/1rm5HDsPUQV7DdadiIz-F_HMlDj-0RiUs?usp=sharing',
-  },
+  },*/
   {
     title: 'Research Paper',
-    submittedOn: '2024/10/13',
+    submittedOn: '2026/04/15',
     type: 'group',
     downloadLink:
-      'https://drive.google.com/file/d/10wyaQQXZYQK63WKZNICZ4ZZMX9fF7y-G/view?usp=sharing',
+      'https://drive.google.com/drive/folders/1EUtAw_PgjpgXdKv2QiIu95bhyID14qLb?usp=sharing',
   },
   {
     title: 'Final Report',
-    submittedOn: '2024/10/13',
-    type: 'individual',
+    submittedOn: '2026/05/13',
+    type: 'individual & Group',
     downloadLink:
-      'https://drive.google.com/drive/folders/1Ra1CMjbZmxNm-kJWlFouVc-NpXwivK5o?usp=sharing',
-  },
-  {
-    title: 'Poster',
-    submittedOn: '2024/10/13',
-    type: 'group',
-    downloadLink: 'driveLink6',
+      '',
   },
 ];
 

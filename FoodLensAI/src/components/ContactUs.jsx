@@ -12,9 +12,9 @@ const ContactUs = () => {
     setButtonText("Sending...");
     setSuccessMessage(""); // Clear any existing success message on new submission
 
-    const serviceID = "default_service";
-    const templateID = "template_mou45cj";
-    const publicKey = "2WFJHlVRvYBL8LzOY";
+    const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
     emailjs
       .sendForm(serviceID, templateID, form.current, publicKey)

@@ -1,65 +1,72 @@
 const milestones = [
   {
-    date: "March 2024",
+    date: "September 2025",
     title: "Project Proposal",
     description:
-      "A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.",
+      "A project proposal is submitted to potential sponsors or clients to secure funding or obtain approval for the project.",
     marks: 6,
     percentage: "6%",
   },
   {
-    date: "June 2024",
+    date: "January 2026",
     title: "Progress Presentation I",
     description:
-      "Progress Presentation I reviews the 50% completion status of the project. This reveals any gaps or inconsistencies in the design/requirements.",
-    marks: 6,
-    percentage: "6%",
+      "Progress Presentation I evaluates the project at its 50% completion stage, helping to identify any gaps or inconsistencies in the design or requirements",
+    marks: 15,
+    percentage: "15%",
   },
   {
-    date: "July 2024",
+    date: "March 2026",
+    title: "Progress Presentation II",
+    description:
+      "Progress Presentation II demonstrates the project at 90% completion, along with a poster presentation that provides an overall view of the project",
+    percentage: "18%",
+  },
+  {
+    date: "April 2026",
     title: "Research Paper",
     description:
-      "Describes what you contribute to existing knowledge, giving due recognition to all work that you referred to in making new knowledge.",
+      "The research contribution outlines the new knowledge generated, while properly acknowledging all referenced work.",
     marks: 10,
     percentage: "10%",
   },
   {
-    date: "September 2024",
-    title: "Progress Presentation II",
-    description:
-      "Reviews the 90% completion status demonstration of the project, including a Poster presentation describing the project as a whole.",
-    marks: 18,
-    percentage: "18%",
-  },
-  {
-    date: "October 2024",
+    date: "May 2026",
     title: "Website Assessment",
     description:
-      "The Website helps to promote our research project and reveals all details related to the project.",
+      "The project website serves as a platform to showcase and share comprehensive details about the research",
     marks: 2,
     percentage: "2%",
   },
   {
-    date: "November 2024",
+    date: "May 2026",
     title: "Logbook",
     description:
-      "The project status is validated through the Logbook, which includes Status Documents 1 & 2.",
-    marks: 3,
-    percentage: "3%",
+      "The logbook is used to validate project progress, including documentation such as Status Documents 1 and 2",
+    marks: 2,
+    percentage: "2%",
   },
   {
-    date: "November 2024",
+    date: "January, April 2026",
+    title: "Checklists",
+    description:
+      "Checklists 1 & 2 are used to systematically verify that all required project components and criteria are completed and aligned with the expected standards.",
+    marks: 2,
+    percentage: "2%",
+  },
+   {
+    date: "May 2026",
     title: "Final Report",
     description:
-      "The Final Report evaluates the completed project done throughout the year, including individual, group, and final reports.",
+      "The final report provides a comprehensive evaluation of the project carried out throughout the year, covering individual, group, and overall outcomes",
     marks: 19,
     percentage: "19%",
   },
   {
-    date: "November 2024",
+    date: "May 2026",
     title: "Final Presentation & Viva",
     description:
-      "Viva is held individually to assess each member's contribution to the project.",
+      "A viva is conducted individually to assess each member’s contribution to the project.",
     marks: 20,
     percentage: "20%",
   },

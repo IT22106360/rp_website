@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="gptGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10A37F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D3B66;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="15" fill="url(#gptGrad)" opacity="0.1"/>
+  <circle cx="50" cy="50" r="30" stroke="#10A37F" stroke-width="2" fill="none"/>
+  <path d="M 50 25 Q 65 35 65 50 Q 65 65 50 75 Q 35 65 35 50 Q 35 35 50 25" fill="none" stroke="#10A37F" stroke-width="2"/>
+  <circle cx="50" cy="50" r="6" fill="#10A37F"/>
+  <circle cx="50" cy="30" r="3" fill="#10A37F"/>
+</svg>

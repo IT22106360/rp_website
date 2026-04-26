@@ -1,51 +1,51 @@
 import { AtSymbolIcon, LinkIcon } from "@heroicons/react/24/outline";
 
-import sachiniImage from "../assets/Sachini.png";
-import navodImage from "../assets/Navod.jpeg";
-import dinushkaImage from "../assets/Dinushka.jpeg";
-import janinduImage from "../assets/Janindu.jpeg";
+import RashmikaImage from "../assets/Rashmika.png";
+import NithilImage from "../assets/Nithil.png";
+import SakuniImage from "../assets/Sakuni.png";
+import TehanImage from "../assets/Tehan.png";
 import samadhiImage from "../assets/Samadhi.jpeg";
 import nelumImage from "../assets/Nelum.jpeg";
 import sudathImage from "../assets/Sudath.png";
 
 const people = [
   {
-    name: "Sachini Lekamge",
+    name: "Rashmika Rupasinghe",
     title: "Group Leader",
     organization: "Sri Lanka Institute of Information Technology",
-    department: "Software Engineering",
-    imageUrl: sachiniImage,
-    linkedInUrl: "https://www.linkedin.com/in/sachini-lekamge/",
-    email: "sachini.lekamge@gmail.com",
+    department: "Data Science",
+    imageUrl: RashmikaImage,
+    linkedInUrl: "https://www.linkedin.com/in/rashmika-rupasinghe-9047a1246/",
+    email: "it22106360@my.sliit.lk",
   },
   {
-    name: "Navod Weerawarna",
+    name: "Nithil Waduge",
     title: "Group Member",
     organization: "Sri Lanka Institute of Information Technology",
-    department: "Software Engineering",
-    imageUrl: navodImage,
-    linkedInUrl: "https://www.linkedin.com/in/navodweerawarna/",
-    email: "navodveduth@gmail.com",
+    department: "Data Science",
+    imageUrl: NithilImage,
+    linkedInUrl: "https://www.linkedin.com/in/nithil-waduge-67965824b/",
+    email: "IT22148490@my.sliit.lk ",
   },
   {
-    name: "Dinushka Samaranayake",
+    name: "Sakuni Dakshina",
     title: "Group Member",
     organization: "Sri Lanka Institute of Information Technology",
-    department: "Software Engineering",
-    imageUrl: dinushkaImage,
-    linkedInUrl: "https://www.linkedin.com/in/dinushkasam/",
-    email: "dinushkasam@gmail.com",
+    department: "Data Science",
+    imageUrl: SakuniImage,
+    linkedInUrl: "https://www.linkedin.com/in/sakuni-dakshina-4893b42a3/",
+    email: "IT22283894@my.sliit.lk ",
   },
   {
-    name: "Janindu Dissanayake",
+    name: "Tehan Nimsitha",
     title: "Group Member",
     organization: "Sri Lanka Institute of Information Technology",
-    department: "Software Engineering",
-    imageUrl: janinduImage,
-    linkedInUrl: "https://www.linkedin.com/in/janindu-dissanayake/",
-    email: "janindu001@gmail.com",
+    department: "Data Science",
+    imageUrl: TehanImage,
+    linkedInUrl: "https://www.linkedin.com/in/tehannimsitha/",
+    email: "IT22193872@my.sliit.lk",
   },
-  {
+  /*{
     name: "Mr. Samadhi Rathnayake",
     title: "Supervisor",
     organization: "Sri Lanka Institute of Information Technology",
@@ -53,18 +53,18 @@ const people = [
     imageUrl: samadhiImage,
     linkedInUrl: "https://www.linkedin.com/in/samadhi-chathuranga-rathnayake/",
     email: "samadhi.r@sliit.lk",
-  },
+  },*/
   {
-    name: "Mr. Nelum Amarasena",
+    name: "Mr. Samadhi Rathnayake",
     title: "Co-Supervisor",
     organization: "Sri Lanka Institute of Information Technology",
     department: "Information Technology",
-    imageUrl: nelumImage,
+    imageUrl: samadhiImage,
     linkedInUrl:
       "https://www.linkedin.com/in/nelum-chathuranga-amarasena-703a66176/",
     email: "samadhi.r@sliit.lk",
   },
-  {
+  /*{
     name: "Mr. Sudath Hewadeva",
     title: "External Supervisor",
     organization: "Mahaweli Authority, Sri Lanka",
@@ -72,7 +72,7 @@ const people = [
     imageUrl: sudathImage,
     linkedInUrl: "https://www.linkedin.com/in/sudath-kumara-hewadewa-0a00888a/",
     email: "",
-  },
+  },*/
 ];
 
 const TeamMember = ({ person }) => (
@@ -122,11 +122,7 @@ const Team = () => {
             Meet our team
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Our dedicated team, composed of undergraduate students and expert
-            supervisors, brings together diverse knowledge and skills to drive
-            innovation and research. Together, we are committed to delivering
-            impactful solutions and advancing the field through collaborative
-            efforts.
+            Our team of undergraduate students and expert supervisors combines diverse skills to drive innovation and research, working collaboratively to deliver impactful solutions.
           </p>
         </div>
 

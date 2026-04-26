@@ -6,28 +6,28 @@ const posts = [
     submittedOn: '2024/03/22',
     type: 'group',
     downloadLink:
-      'https://drive.google.com/file/d/1OYA8-3sIyyOKNCFrG_71hqTjVp-3IBNj/view?usp=sharing',
+      'https://drive.google.com/file/d/18huP3v4UEQdeg-sDhrnFyXxhvKYXamF6/view?usp=sharing',
   },
   {
     title: 'Progress Presentation I',
     submittedOn: '2024/07/05',
     type: 'group',
     downloadLink:
-      'https://drive.google.com/file/d/1pwzyWwoqYiU6LSy4ZJyON_R22vY6awXa/view?usp=sharing',
+      'https://drive.google.com/file/d/18huP3v4UEQdeg-sDhrnFyXxhvKYXamF6/view?usp=sharing',
   },
   {
     title: 'Progress Presentation II',
     submittedOn: '2024/08/30',
     type: 'group',
     downloadLink:
-      'https://drive.google.com/file/d/1eY39h6iVCSMahxLMT3FhqrqeRNb0QqJR/view?usp=sharing',
+      'https://drive.google.com/file/d/1-iuOFhSzjPguz5x4E4I5TMmHgXn7cVLc/view?usp=sharing',
   },
   {
     title: 'Final Presentation',
     submittedOn: '2024/10/13',
     type: 'group',
     downloadLink:
-      'https://drive.google.com/file/d/1bKL9Ori_95g4BwAC4mUdPniEK_1Dibq6/view?usp=sharing',
+      '#',
   },
 ];
 

@@ -10,7 +10,7 @@ import {
   XMarkIcon,
   ChevronDownIcon,
 } from "@heroicons/react/24/outline";
-import Logo from "../assets/favicon.png";
+import Logo from "../assets/favicon.ico";
 
 const navigation = [
   { name: "Home", href: "#home" },
@@ -37,7 +37,7 @@ const navigation = [
       { name: "Presentations", href: "#presentations" },
     ],
   },
-  { name: "Achievements", href: "#achievements" },
+  // { name: "Achievements", href: "#achievements" },
   { name: "About Us", href: "#about-us" },
   { name: "Contact Us", href: "#contact-us" },
 ];
