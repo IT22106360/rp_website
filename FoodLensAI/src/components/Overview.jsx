@@ -1,8 +1,8 @@
 import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-  ExclamationTriangleIcon,
+  DocumentTextIcon,
+  CheckBadgeIcon,
+  HeartIcon,
+  GlobeAltIcon,
   ChartBarSquareIcon,
 } from "@heroicons/react/20/solid";
 import WebApp from "../assets/web-app-1.png";
@@ -20,10 +20,10 @@ const Overview = () => {
               <p className="text-base font-semibold leading-7 text-cyan-600">
                 FoodLensAI
               </p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-left">
                 Revolutionizing Nutritional Analysis and Label Intelligence
               </h1>
-              <p className="mt-6 text-xl leading-8 text-gray-700">
+              <p className="mt-6 text-xl leading-8 text-gray-700 text-justify">
                 The current approaches to dietary label analysis presents challenges that can be addressed by a smart, automated visual recognition system, optimizing regulatory compliance, health awareness, and market transparency.
               </p>
             </div>
@@ -38,10 +38,10 @@ const Overview = () => {
         </div>
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
-            <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
+            <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg text-justify">
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <ServerIcon
+                  <DocumentTextIcon
                     aria-hidden="true"
                     className="mt-1 h-5 w-5 flex-none text-cyan-600"
                   />
@@ -53,7 +53,7 @@ const Overview = () => {
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CloudArrowUpIcon
+                  <CheckBadgeIcon
                     aria-hidden="true"
                     className="mt-1 h-5 w-5 flex-none text-cyan-600"
                   />
@@ -65,7 +65,7 @@ const Overview = () => {
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <LockClosedIcon
+                  <HeartIcon
                     aria-hidden="true"
                     className="mt-1 h-5 w-5 flex-none text-cyan-600"
                   />
@@ -77,7 +77,7 @@ const Overview = () => {
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <ExclamationTriangleIcon
+                  <GlobeAltIcon
                     aria-hidden="true"
                     className="mt-1 h-5 w-5 flex-none text-cyan-600"
                   />

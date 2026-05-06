@@ -41,7 +41,7 @@ const posts = [
     submittedOn: '2026/05/13',
     type: 'individual & Group',
     downloadLink:
-      '',
+      'https://drive.google.com/drive/folders/1h6LWCfz1M1nYMbuC0AOr9-eQDCuU16MB?usp=sharing',
   },
 ];
 
@@ -52,7 +52,7 @@ const Documents = () => {
         <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
           Documents
         </h2>
-        <p className='mt-6 text-lg leading-8 text-gray-600'>
+        <p className='mt-6 text-lg leading-8 text-gray-600 text-justify'>
           Please find all documents related to this project below.
         </p>
         <div className='mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-4'>
@@ -66,9 +66,9 @@ const Documents = () => {
                 </time>
                 <span
                   className={`relative z-10 rounded-full ${
-                    post.type === 'group' ? 'bg-cyan-400' : 'bg-slate-500 bg-'
+                    post.type === 'group' ? 'bg-cyan-400' : post.type === 'individual & Group' ? 'bg-cyan-600' : 'bg-slate-500'
                   } px-2 py-1 text-xs text-white scale-95`}>
-                  {post.type === 'group' ? 'Group' : 'Individual'}
+                  {post.type === 'group' ? 'Group' : post.type === 'individual & Group' ? 'Individual & Group' : 'Individual'}
                 </span>
               </div>
               <div className='group relative mt-4 flex items-center'>

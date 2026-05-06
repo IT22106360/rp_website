@@ -11,7 +11,7 @@ const Hero = () => {
               <br />
               Brain Behind Every bite
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
               An Intelligent Framework for Transparent and Safe, Food and Dietary Labeling
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">

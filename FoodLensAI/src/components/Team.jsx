@@ -79,7 +79,7 @@ const people = [
 const TeamMember = ({ person }) => (
   <li className="flex flex-col items-center hover:shadow-lg transition-shadow bg-white p-4 lg:p-6 rounded-lg shadow-md bg-opacity-70 lg:bg-opacity-50">
     <img
-      className="h-32 w-32 rounded-full object-cover"
+      className="h-32 w-32 rounded-full object-contain"
       src={person.imageUrl}
       alt={person.name}
     />

@@ -1,8 +1,8 @@
 import {
-  ArrowPathIcon,
-  DevicePhoneMobileIcon,
-  AcademicCapIcon,
-  BoltIcon,
+  CheckBadgeIcon,
+  GlobeAltIcon,
+  HeartIcon,
+  ChartBarIcon,
 } from "@heroicons/react/24/outline";
 
 const Objectives = () => {
@@ -11,25 +11,25 @@ const Objectives = () => {
       title: "Multimodal Data Extraction & Sustainability Scoring",
       description:
         "advanced computer vision models to accurately extract unstructured text from diverse food labels, while simultaneously analyzing certifications and sourcing indicators to calculate environmental sustainability scores",
-      icon: DevicePhoneMobileIcon,
+      icon: GlobeAltIcon,
     },
     {
       title: "Automate Compliance Verification",
       description:
         "Implement a robust verification engine to autonomously cross-reference extracted ingredients and nutritional claims against current regulatory databases, ensuring proactive identification of non-compliant formulations.",
-      icon: ArrowPathIcon,
+      icon: CheckBadgeIcon,
     },
     {
       title: "Generate Health Impact Profiles",
       description:
         "Create comprehensive analytical models that translate complex nutritional facts, allergen warnings, and hidden additives into clear, actionable health insights, empowering users to identify specific dietary risks.",
-      icon: AcademicCapIcon,
+      icon: HeartIcon,
     },
     {
       title: "Predictive Market Intelligence",
       description:
         "Utilize machine learning algorithms to aggregate and analyze continuous visual label data, generating predictive nutritional trends and real-time market analytics for food brands, researchers, and regulatory bodies.",
-      icon: BoltIcon,
+      icon: ChartBarIcon,
     },
   ];
 
@@ -39,7 +39,7 @@ const Objectives = () => {
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Research Objectives
         </h2>
-        <p className="mt-6 text-lg leading-8 text-gray-600">
+        <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
           Our research aims to achieve the following key objectives to
           revolutionize dam control and management.
         </p>
@@ -56,7 +56,7 @@ const Objectives = () => {
                   </div>
                   {objective.title}
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-600">
+                <dd className="mt-2 text-base leading-7 text-gray-600 text-justify">
                   {objective.description}
                 </dd>
               </div>

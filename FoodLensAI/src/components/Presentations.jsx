@@ -27,7 +27,7 @@ const posts = [
     submittedOn: '2024/10/13',
     type: 'group',
     downloadLink:
-      '#',
+      'https://drive.google.com/file/d/1IkeHgdee91I-i-laxRv_uOqT-eQpQv_r/view?usp=sharing',
   },
 ];
 
@@ -38,7 +38,7 @@ const Presentations = () => {
         <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
           Presentations
         </h2>
-        <p className='mt-6 text-lg leading-8 text-gray-600'>
+        <p className='mt-6 text-lg leading-8 text-gray-600 text-justify'>
           Please find all presentations related to this project below.
         </p>
         <div className='mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-4'>

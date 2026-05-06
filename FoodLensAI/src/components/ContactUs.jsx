@@ -43,7 +43,7 @@ const ContactUs = () => {
           className="mt-8 space-y-6 bg-white bg-opacity-50 p-10 rounded-lg shadow-lg"
           id="form"
         >
-          <p className="text-lg leading-8 text-gray-600">
+          <p className="text-lg leading-8 text-gray-600 text-justify">
             Reach out to us via the form below and we will get back to you as
             soon as possible.
           </p>

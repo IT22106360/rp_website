@@ -9,7 +9,7 @@ const Methodology = () => {
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Methodology
         </h2>
-        <p className="mt-6 text-lg leading-8 text-gray-600">
+        <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
           We adopt a structured methodology to ensure the development of effective and innovative solutions.
         </p>
         <div className="mt-10 lg:flex lg:items-center">
@@ -22,7 +22,7 @@ const Methodology = () => {
           </div>
 
           <div className="lg:w-1/2 lg:pl-12 mt-8 lg:mt-0">
-            <ul className="list-disc pl-6 text-lg leading-8 text-gray-600">
+            <ul className="list-disc pl-6 text-lg leading-8 text-gray-600 text-justify">
               <li>
                 <strong>Intelligent Label Extraction & Sustainability Analysis:</strong>
                 Utilizes OCR, Vision-Language Models, and post processing to accurately extract and structure food label information. Simultaneously, it integrates carbon emission data and uses machine learning to perform autonomous sustainability assessments.
@@ -39,7 +39,7 @@ const Methodology = () => {
             </ul>
           </div>
         </div>
-        <p className="mt-6 text-lg leading-8 text-gray-600">
+        <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
           This integrated system bridges regulatory compliance, health science, and consumer trust, ensuring transparent labeling, proactive regulation checks, personalized health insights, and actionable market intelligence
         </p>
       </div>

@@ -75,7 +75,7 @@ const Solution = () => {
                 <img
                   alt=""
                   src={post.author.imageUrl}
-                  className="h-10 w-10 rounded-full bg-gray-50"
+                  className="h-10 w-10 rounded-full bg-gray-50 object-cover object-top"
                 />
                 <div className="text-sm leading-6">
                   <p className="font-semibold text-gray-900">

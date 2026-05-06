@@ -79,7 +79,7 @@ const Milestones = () => {
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Milestones
         </h2>
-        <p className="mt-6 text-lg leading-8 text-gray-600">
+        <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
           Here's a brief timeline of our project's key milestones.
         </p>
         <div className="py-10">
@@ -105,7 +105,7 @@ const Milestones = () => {
                     {milestone.title}
                   </h3>
                   <p className="text-cyan-600">{milestone.date}</p>
-                  <p className="text-gray-700">{milestone.description}</p>
+                  <p className="text-gray-700 text-justify">{milestone.description}</p>
                   <div className="mt-2">
                     <div className="flex items-center">
                       <div className="flex-1">

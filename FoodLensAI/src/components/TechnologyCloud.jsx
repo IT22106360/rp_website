@@ -45,7 +45,7 @@ const TechnologyCloud = () => {
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Cutting-Edge Technologies
         </h2>
-        <p className="mt-6 text-lg leading-8 text-gray-600">
+        <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
           Explore the powerful technologies we use to build modern solutions.
         </p>
         <div className="mx-auto mt-12 grid max-w-lg grid-cols-4 items-center gap-x-12 gap-y-12 sm:max-w-xl sm:grid-cols-6 lg:max-w-none lg:grid-cols-8">
